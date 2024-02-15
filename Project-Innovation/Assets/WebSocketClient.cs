@@ -3,10 +3,10 @@ using WebSocketSharp;
 
 public class WebSocketClient : MonoBehaviour
 {
-    private WebSocket webSocket;
-
     // Replace this URL with your WebSocket server address
     private string serverAddress = "wss://congruous-remarkable-giraffe.glitch.me";
+
+    private WebSocket webSocket;
 
     void Start()
     {
